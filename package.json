@@ -1,0 +1,22 @@
+{
+  "name": "createtype-error",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "install": "^0.13.0",
+    "sanity": "^3.8.3",
+    "sanity-typed-schema-builder": "^2.1.1",
+    "zod": "^3.21.4"
+  }
+}
