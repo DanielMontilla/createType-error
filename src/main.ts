@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 import { s } from "sanity-typed-schema-builder";
-import { z } from "zod";
+import { z } from "zod"; // change zod version to "3.17.10" to make it work!
 
 const muxVideo = () =>
   s.createType({
